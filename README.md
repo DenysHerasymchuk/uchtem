@@ -9,6 +9,7 @@
   <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white" />
   <img alt="i18next" src="https://img.shields.io/badge/i18next-UA%20%2F%20EN-26A69A?logo=i18next&logoColor=white" />
   <img alt="Vitest" src="https://img.shields.io/badge/Tested_with-Vitest-6E9F18?logo=vitest&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/badge/License-PolyForm_Noncommercial_1.0.0-blue" />
 </p>
 
 Uchtem is a premium financial-management / business-consulting brand website — a bilingual (Ukrainian primary, English secondary) marketing SPA built to read like a private institution, not a generic accounting-firm site.
@@ -88,7 +89,15 @@ uchtem/
     └── utils/
 ```
 
+## Demo
+
+![Uchtem demo](public/readmegif.gif)
+
 ## Known gaps
 
 - Favicon/OG image are still placeholders — need real brand assets.
 - Contact form posts to a placeholder Formspree endpoint (`src/lib/formspree.ts`) — swap in a real form ID before launch.
+
+## License
+
+[PolyForm Noncommercial License 1.0.0](LICENSE) — free to use, modify, and reuse (including individual components) for noncommercial purposes. Using this repository, or code from it, to generate revenue or other commercial advantage is not permitted.

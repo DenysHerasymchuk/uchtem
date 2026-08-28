@@ -2,28 +2,22 @@ import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowRight, BarChart01, Building07, ChevronDown, Compass01, Globe01, LayoutGrid01, Mail01, Menu01, XClose } from "@untitledui/icons";
+import { ArrowRight, BarChart01, Building07, Compass01, Globe01, LayoutGrid01, Menu01, XClose } from "@untitledui/icons";
 import { Button } from "@/components/base/buttons/button";
 import { useLocalizedPath, useOtherLocalePath } from "@/i18n/locale";
 
 export function Header() {
     const { t } = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isServicesOpen, setIsServicesOpen] = useState(false);
     const lp = useLocalizedPath();
     const { otherPath, otherLang } = useOtherLocalePath();
 
-    const serviceLinks = [
+    const navLinks = [
+        { label: t("nav.services"), to: lp("/services"), icon: LayoutGrid01 },
         { label: t("nav.financialManagement"), to: lp("/services/financial-management"), icon: BarChart01 },
         { label: t("nav.businessConsulting"), to: lp("/services/business-consulting"), icon: Compass01 },
-    ];
-
-    const mainLinks = [
         { label: t("nav.about"), to: lp("/about"), icon: Building07 },
-        { label: t("nav.contact"), to: lp("/contact"), icon: Mail01 },
     ];
-
-    const mobileLinks = [{ label: t("nav.services"), to: lp("/services"), icon: LayoutGrid01 }, ...serviceLinks, ...mainLinks];
 
     useEffect(() => {
         document.body.style.overflow = isMenuOpen ? "hidden" : "";
@@ -39,51 +33,8 @@ export function Header() {
                     <img src="/pictures/uchtem-logo-white.png" alt="Uchtem" className="h-5 w-auto lg:h-6" />
                 </Link>
 
-                <nav className="hidden items-center gap-7 lg:flex">
-                    <div className="relative" onMouseEnter={() => setIsServicesOpen(true)} onMouseLeave={() => setIsServicesOpen(false)}>
-                        <NavLink
-                            to={lp("/services")}
-                            end
-                            className={({ isActive }) =>
-                                `flex items-center gap-1.5 text-xs tracking-wide uppercase transition-colors ${isActive ? "text-brass" : "text-ivory/70 hover:text-ivory"}`
-                            }
-                        >
-                            <LayoutGrid01 className="size-3.5" />
-                            {t("nav.services")}
-                            <ChevronDown className={`size-3 transition-transform duration-200 ${isServicesOpen ? "rotate-180" : ""}`} />
-                        </NavLink>
-
-                        <AnimatePresence>
-                            {isServicesOpen && (
-                                <div className="absolute top-full left-1/2 w-64 -translate-x-1/2 pt-4">
-                                    <motion.div
-                                        initial={{ opacity: 0, y: -4 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: -4 }}
-                                        transition={{ duration: 0.15, ease: [0.22, 1, 0.36, 1] }}
-                                        className="overflow-hidden rounded-2xl border border-ivory/15 bg-ink/95 py-2 shadow-[0_16px_40px_rgba(0,0,0,0.3)] backdrop-blur-xl"
-                                    >
-                                        {serviceLinks.map((link) => (
-                                            <NavLink
-                                                key={link.to}
-                                                to={link.to}
-                                                end
-                                                onClick={() => setIsServicesOpen(false)}
-                                                className={({ isActive }) =>
-                                                    `flex items-center gap-2.5 px-5 py-3 text-xs tracking-wide uppercase transition-colors ${isActive ? "text-brass" : "text-ivory/80 hover:bg-ivory/5 hover:text-ivory"}`
-                                                }
-                                            >
-                                                <link.icon className="size-4" />
-                                                {link.label}
-                                            </NavLink>
-                                        ))}
-                                    </motion.div>
-                                </div>
-                            )}
-                        </AnimatePresence>
-                    </div>
-
-                    {mainLinks.map((link) => (
+                <nav className="hidden items-center gap-7 xl:flex">
+                    {navLinks.map((link) => (
                         <NavLink
                             key={link.to}
                             to={link.to}
@@ -98,7 +49,7 @@ export function Header() {
                     ))}
                 </nav>
 
-                <div className="hidden items-center gap-6 lg:flex">
+                <div className="hidden items-center gap-6 xl:flex">
                     <Link
                         to={otherPath}
                         aria-label={otherLang === "en" ? "Switch to English" : "Перемкнути на українську"}
@@ -112,7 +63,7 @@ export function Header() {
                     </Button>
                 </div>
 
-                <div className="flex items-center gap-4 lg:hidden">
+                <div className="flex items-center gap-4 xl:hidden">
                     <Link
                         to={otherPath}
                         aria-label={otherLang === "en" ? "Switch to English" : "Перемкнути на українську"}
@@ -140,9 +91,9 @@ export function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -8 }}
                         transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                        className="mt-3 flex flex-col gap-6 rounded-2xl border border-ivory/15 bg-ink/90 px-6 py-8 shadow-[0_8px_30px_rgba(0,0,0,0.2)] backdrop-blur-xl lg:hidden"
+                        className="mt-3 flex flex-col gap-6 rounded-2xl border border-ivory/15 bg-ink/90 px-6 py-8 shadow-[0_8px_30px_rgba(0,0,0,0.2)] backdrop-blur-xl xl:hidden"
                     >
-                        {mobileLinks.map((link) => (
+                        {navLinks.map((link) => (
                             <NavLink
                                 key={link.to}
                                 to={link.to}
