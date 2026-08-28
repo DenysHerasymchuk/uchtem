@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Uchtem" src="public/pictures/uchtem-logo-black.png" width="220" />
+  <img alt="Uchtem" src="public/pictures/uchtem-logo-white.png" width="360" />
 </p>
 
 <p align="center">
@@ -10,8 +10,6 @@
   <img alt="i18next" src="https://img.shields.io/badge/i18next-UA%20%2F%20EN-26A69A?logo=i18next&logoColor=white" />
   <img alt="Vitest" src="https://img.shields.io/badge/Tested_with-Vitest-6E9F18?logo=vitest&logoColor=white" />
 </p>
-
-<h1 align="center">Uchtem</h1>
 
 Uchtem is a premium financial-management / business-consulting brand website — a bilingual (Ukrainian primary, English secondary) marketing SPA built to read like a private institution, not a generic accounting-firm site.
 
