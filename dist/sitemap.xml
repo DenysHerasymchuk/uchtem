@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://uchtem.com/</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://uchtem.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uchtem.com/en" />
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://uchtem.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://uchtem.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://uchtem.com/en" />
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://uchtem.com/services</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/en/services</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/services/financial-management</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/en/services/financial-management</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/services/business-consulting</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/en/services/business-consulting</loc><priority>0.9</priority></url>
+  <url><loc>https://uchtem.com/about</loc><priority>0.7</priority></url>
+  <url><loc>https://uchtem.com/en/about</loc><priority>0.7</priority></url>
+  <url><loc>https://uchtem.com/contact</loc><priority>0.8</priority></url>
+  <url><loc>https://uchtem.com/en/contact</loc><priority>0.8</priority></url>
+</urlset>

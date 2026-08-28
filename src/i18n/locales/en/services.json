@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Services",
+    "description": "Uchtem's services, organized around business outcomes: know your numbers, control your cash, understand performance, make better decisions."
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "headline": "Every engagement resolves to a business outcome.",
+    "supporting": "Not a list of accounting tasks — a system for knowing your numbers, controlling your cash, and deciding with confidence."
+  },
+  "comparison": {
+    "eyebrow": "The Difference",
+    "headline": "Bookkeeping was never the ceiling.",
+    "conventionalLabel": "Conventional Bookkeeping",
+    "rows": [
+      { "conventional": "Numbers arrive after the quarter has already happened.", "uchtem": "Numbers are current — reviewed on an ongoing cadence." },
+      { "conventional": "A rotating cast of juniors handles your file.", "uchtem": "One institution maintains continuity, start to finish." },
+      { "conventional": "Reports are filed. No one asks what to do next.", "uchtem": "Reporting is built to inform the next decision." },
+      { "conventional": "Bookkeeping and strategy are two separate vendors.", "uchtem": "Financial management and consulting are one system." }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to see where your business stands?"
+  }
+}

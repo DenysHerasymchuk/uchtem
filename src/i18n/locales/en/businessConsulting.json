@@ -1,0 +1,27 @@
+{
+  "seo": {
+    "title": "Business Consulting",
+    "description": "Financial strategy, performance analysis, and decision support from Uchtem — the strategic layer built on top of accurate, current numbers."
+  },
+  "hero": {
+    "eyebrow": "Pillar Two",
+    "headline": "The strategy behind the numbers.",
+    "supporting": "Accurate numbers are the starting point. Uchtem's consulting turns them into a strategic view of the business and its next move."
+  },
+  "breakdown": {
+    "eyebrow": "What's Included",
+    "headline": "Strategic thinking, grounded in the numbers.",
+    "items": [
+      { "title": "Financial Analysis", "body": "A clear read on margin, unit economics, and where the business actually makes and loses money." },
+      { "title": "Performance Analysis", "body": "The story behind the numbers — what changed, why, and what it means for the next quarter." },
+      { "title": "Financial Strategy", "body": "Structuring, pricing, and investment decisions made with a full financial picture, not a gut call." },
+      { "title": "Decision Support", "body": "Financial modelling and scenario work for the calls that are hard to unwind once made." },
+      { "title": "Financial Optimization", "body": "Cost, structure, and cash-conversion improvements identified through the numbers, not guesswork." },
+      { "title": "Ongoing Oversight", "body": "A standing strategic partner reviewing performance on a set cadence, not a one-off engagement." }
+    ]
+  },
+  "cta": {
+    "headline": "Put your numbers to work.",
+    "supporting": "Talk to Uchtem about what your reporting isn't telling you yet."
+  }
+}

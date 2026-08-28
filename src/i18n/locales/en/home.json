@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "title": "Uchtem",
+    "description": "Uchtem is the financial infrastructure behind ambitious businesses — bookkeeping, reporting, and strategy handled by one institutional partner."
+  },
+  "hero": {
+    "eyebrow": "Financial Infrastructure",
+    "headlineStart": "Financial control for businesses built to",
+    "headlineEmphasis": "grow",
+    "subhead": "Uchtem is the financial infrastructure behind ambitious businesses — bookkeeping, reporting, and strategy handled by one institutional partner, so every decision is made with clarity.",
+    "ctaPrimary": "Start a Conversation",
+    "ctaSecondary": "See how it works",
+    "trustBadge": "500+ businesses trust Uchtem"
+  },
+  "problem": {
+    "headline": "Most businesses don't have a finance problem. They have a visibility problem.",
+    "points": [
+      "Decisions get made on instinct, weeks after the numbers would have made them obvious.",
+      "Cash surprises arrive instead of being seen coming, months in advance.",
+      "The accountant files on time. No one is asked what the business should do next."
+    ]
+  },
+  "servicesGrid": {
+    "eyebrow": "What Uchtem Does",
+    "headline": "Every service resolves to one of four outcomes.",
+    "outcomes": [
+      { "title": "Know your numbers.", "body": "Bookkeeping and accounting maintained to a standard you can build decisions on, not just file away." },
+      { "title": "Control your cash.", "body": "Cash-flow visibility and budgeting that let you see three months ahead instead of reacting to what's already happened." },
+      { "title": "Understand performance.", "body": "Management reporting and performance analysis that explain why the numbers moved, not just that they did." },
+      { "title": "Make better decisions.", "body": "Financial strategy and decision support built into the business, not delivered once a year in a workshop." }
+    ]
+  },
+  "twoPillars": {
+    "pillarOne": {
+      "eyebrow": "Pillar One",
+      "title": "Financial Management",
+      "tagline": "The numbers, always current.",
+      "body": "Bookkeeping, accounting, financial administration, and reporting — run continuously, not reconstructed once a year.",
+      "cta": "Explore"
+    },
+    "pillarTwo": {
+      "eyebrow": "Pillar Two",
+      "title": "Business Consulting",
+      "tagline": "The strategy behind the numbers.",
+      "body": "Performance analysis, financial strategy, and decision support that turn reporting into a plan for what's next.",
+      "cta": "Explore"
+    }
+  },
+  "method": {
+    "eyebrow": "How Uchtem Works",
+    "headline": "An institution, not a rotating cast.",
+    "intro": "There is no roster of juniors and no handoffs. You work with Uchtem — the same structure, oversight, and strategic thinking, applied consistently as the business grows.",
+    "steps": [
+      { "title": "Structure", "body": "We put a financial system in place — accounts, processes, and reporting built around how your business actually runs." },
+      { "title": "Oversight", "body": "The numbers are maintained and reviewed continuously by the same institution, not handed between juniors each quarter." },
+      { "title": "Strategy", "body": "Reporting becomes the basis for decisions — cash, growth, and performance conversations, held on a regular cadence." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Bring your finances into focus."
+  }
+}

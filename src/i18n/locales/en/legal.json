@@ -1,0 +1,14 @@
+{
+  "eyebrow": "Legal",
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Uchtem's privacy policy — how we collect, store, and use client data.",
+    "body": "Uchtem's full privacy policy will be published here ahead of launch, covering how client and prospect data is collected, stored, and used."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Uchtem's terms of service — engagement terms and use of this website.",
+    "body": "Uchtem's full terms of service will be published here ahead of launch, covering engagement terms and use of this website."
+  },
+  "contactNote": "In the meantime, reach us directly at"
+}

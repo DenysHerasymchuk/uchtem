@@ -1,0 +1,34 @@
+{
+  "seo": {
+    "title": "Contact",
+    "description": "Start a conversation with Uchtem about bringing your business's finances into focus."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "headline": "Start a conversation.",
+    "typewriterPhrases": ["Start a conversation.", "Ask us anything.", "Take the first step."],
+    "supporting": "Tell us about the business. We'll respond within one business day to arrange a first conversation."
+  },
+  "form": {
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Jordan Ellis",
+    "workEmail": "Work Email",
+    "workEmailPlaceholder": "jordan@company.com",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "companySize": "Company Size",
+    "companySizeOptions": {
+      "placeholder": "Select company size",
+      "1-10": "1–10 employees",
+      "11-50": "11–50 employees",
+      "51-200": "51–200 employees",
+      "200+": "200+ employees"
+    },
+    "message": "Message",
+    "messagePlaceholder": "What would you like Uchtem to know about your business?",
+    "submit": "Send Message",
+    "errorMessage": "Something went wrong sending your message. Please email hello@uchtem.com directly.",
+    "successTitle": "Message received.",
+    "successBody": "Thank you for reaching out. Uchtem will be in touch within one business day."
+  }
+}

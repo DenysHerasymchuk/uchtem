@@ -1,0 +1,29 @@
+{
+  "seo": {
+    "title": "About Uchtem",
+    "description": "Uchtem is entity-first, not person-first — an institutional financial partner, not a rotating cast of individuals."
+  },
+  "hero": {
+    "eyebrow": "Philosophy",
+    "headlineWord": "institution",
+    "headlineRest": " built to be trusted, not a person built to be liked.",
+    "supporting": "Uchtem exists because businesses with ambition need more than a bookkeeper who files on time."
+  },
+  "whyExists": {
+    "heading": "Why Uchtem exists",
+    "paragraphs": [
+      "Most businesses reach a point where their finances outgrow what a traditional accountant is built to provide. The books are technically correct, but no one is asking what the numbers mean for the next decision.",
+      "Uchtem was built to close that gap — not as a fractional executive hire, and not as another piece of software to interpret alone, but as a single institutional partner responsible for both the numbers and what they mean."
+    ]
+  },
+  "institution": {
+    "heading": "An institution, not an individual",
+    "paragraphs": [
+      "We don't put people forward. Not because the people don't matter, but because the standard has to hold regardless of who's involved on a given week. You are not betting on one accountant's availability or one consultant's memory of your business.",
+      "You are working with Uchtem — a consistent structure, oversight process, and strategic standard that doesn't change when someone is on leave or moves on."
+    ]
+  },
+  "cta": {
+    "headline": "See how Uchtem would run your finances."
+  }
+}

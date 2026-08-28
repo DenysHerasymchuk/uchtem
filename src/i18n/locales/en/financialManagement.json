@@ -1,0 +1,27 @@
+{
+  "seo": {
+    "title": "Financial Management",
+    "description": "Bookkeeping, accounting, reporting, cash-flow visibility, and budgeting — run continuously by Uchtem, not reconstructed once a year."
+  },
+  "hero": {
+    "eyebrow": "Pillar One",
+    "headline": "The numbers, always current.",
+    "supporting": "Financial management is the foundation everything else stands on. Uchtem runs it as ongoing infrastructure, not an annual scramble."
+  },
+  "breakdown": {
+    "eyebrow": "What's Included",
+    "headline": "Six disciplines, run as one system.",
+    "items": [
+      { "title": "Bookkeeping", "body": "Transactions recorded and reconciled on a continuous cycle, not caught up in a rush before a deadline." },
+      { "title": "Accounting", "body": "Statutory accounts and compliance handled as a baseline — the starting point, not the deliverable." },
+      { "title": "Financial Administration", "body": "Payables, receivables, and the operational finance work that keeps a business running without your attention." },
+      { "title": "Reporting", "body": "Monthly management reporting built to be read by an owner, not just filed by an accountant." },
+      { "title": "Cash-Flow Visibility", "body": "A live view of cash position and forward projection, so surprises are seen months before they arrive." },
+      { "title": "Budgeting", "body": "Budgets set against the business's actual trajectory, and revisited as the business changes." }
+    ]
+  },
+  "cta": {
+    "headline": "Get your financial base in order.",
+    "supporting": "Start with a conversation about where your books, reporting, and cash visibility stand today."
+  }
+}

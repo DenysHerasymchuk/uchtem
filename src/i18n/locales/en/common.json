@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "services": "Services",
+    "financialManagement": "Financial Management",
+    "businessConsulting": "Business Consulting",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "startConversation": "Start a Conversation"
+  },
+  "footer": {
+    "tagline": "Financial infrastructure for businesses built to grow.",
+    "columns": {
+      "services": "Services",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "overview": "Overview",
+      "financialManagement": "Financial Management",
+      "businessConsulting": "Business Consulting",
+      "about": "About Uchtem",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "copyright": "Uchtem. All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

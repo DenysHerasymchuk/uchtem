@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "services": "Послуги",
+    "financialManagement": "Фінансове управління",
+    "businessConsulting": "Бізнес-консалтинг",
+    "about": "Про Uchtem",
+    "contact": "Контакти"
+  },
+  "cta": {
+    "startConversation": "Почати розмову"
+  },
+  "footer": {
+    "tagline": "Фінансова інфраструктура для бізнесу, який прагне зростання.",
+    "columns": {
+      "services": "Послуги",
+      "company": "Компанія",
+      "legal": "Правова інформація"
+    },
+    "links": {
+      "overview": "Огляд",
+      "financialManagement": "Фінансове управління",
+      "businessConsulting": "Бізнес-консалтинг",
+      "about": "Про Uchtem",
+      "contact": "Контакти",
+      "privacy": "Політика конфіденційності",
+      "terms": "Умови надання послуг"
+    },
+    "copyright": "Uchtem. Усі права захищено."
+  },
+  "languageSwitcher": {
+    "label": "Мова"
+  }
+}
