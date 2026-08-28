@@ -8,10 +8,9 @@ Uchtem is a premium financial-management / business-consulting brand website. Th
 strategic brand blueprint (positioning, sitemap, design system, homepage plan) lives in
 this session's plan; the site is implemented as a Vite + React + TypeScript SPA.
 
-The homepage (`src/routes/Home.tsx` and its section components) is fully built and
-bilingual (Ukrainian primary, English secondary). The other six routes exist with
-real copy but are English-only so far — a follow-up pass should translate them using
-the same `home` i18n namespace pattern.
+All routes (Home, Services, Financial Management, Business Consulting, About, and
+Contact — plus Legal and the 404 page) are fully built and fully bilingual (Ukrainian
+primary, English secondary), each with real copy in both languages.
 
 ## Commands
 
@@ -55,18 +54,18 @@ Ukrainian is the **primary/default** language; English is secondary.
   bare, Ukrainian-locale path in (e.g. `lp("/contact")`) and letting it add `/en` when
   appropriate. The header's language switcher uses `useOtherLocalePath()` to link to
   the equivalent page in the other language.
-- **Translation resources**: `src/i18n/locales/{ua,en}/{common,home}.json`, loaded via
+- **Translation resources**: `src/i18n/locales/{ua,en}/*.json`, loaded via
   `src/i18n/index.ts`. `common` covers global chrome (nav, footer, CTA button) used on
-  every page. `home` covers the homepage's own copy — and is also picked up "for
-  free" by shared section components (`ServicesGrid`, `TwoPillars`, `Method`) when
-  they're reused on not-yet-translated pages, since those components already call
-  `useTranslation("home")` directly.
-- **Localized content**: `src/content/insights.ts` stores `title`/`category`/`excerpt`
-  as `{ ua, en }` objects; use the `localize()` helper to read the active language's
-  field rather than accessing a language key directly.
+  every page; every route has its own namespace (`home`, `services`,
+  `financialManagement`, `businessConsulting`, `about`, `contact`, `legal`,
+  `notFound`) — all complete in both languages. Shared section components
+  (`ServicesGrid`, `TwoPillars`, `Method`) call `useTranslation("home")` directly and
+  keep reading from the `home` namespace even when reused on other routes (e.g.
+  `Method` on `/about`, `ServicesGrid`/`TwoPillars` on `/services`) — that's by design,
+  not a translation gap.
 - **Adding a new page-specific string**: add it to both locale JSON files under the
-  relevant namespace, then pull it with `useTranslation("home")` (or add a new
-  namespace and register it in `src/i18n/index.ts` for a new page's unique copy).
+  relevant namespace, then pull it with `useTranslation("<namespace>")` (or register a
+  new namespace in `src/i18n/index.ts` for a new page's unique copy).
 - **SEO**: `Seo.tsx` emits `hreflang` alternates (`uk`, `en`, `x-default`) and a
   locale-correct canonical URL from the bare path each route passes in — routes should
   keep passing the Ukrainian-locale path (e.g. `path="/services"`) regardless of which
@@ -74,10 +73,6 @@ Ukrainian is the **primary/default** language; English is secondary.
 
 ## Known gaps (flagged, not yet done)
 
-- Services, Financial Management, Business Consulting, About, Insights, and Contact
-  pages have real English copy but are not yet translated into Ukrainian — visiting
-  them at a bare (Ukrainian-locale) URL currently mixes Ukrainian chrome with English
-  body copy. Translate page-by-page using the `home` namespace pattern above.
 - Favicon/OG image are still CRA placeholders — need real brand assets.
 - Contact form posts to a placeholder Formspree endpoint (`src/lib/formspree.ts`) —
   swap in a real form ID before launch.
